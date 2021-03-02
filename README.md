@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Github User Search [![Build Status](https://travis-ci.org/simonsmith/github-user-search.svg?branch=master)](https://travis-ci.org/simonsmith/github-user-search)
 
 Search and view users via the Github API - https://simonsmith.github.io/github-user-search
@@ -48,3 +49,6 @@ yarnpkg run start
 
 * Service worker
 * webpack chunks based on route
+=======
+# git-user-search
+>>>>>>> 8f5e3a0e25ad0d67e9fb4d5f1292f8d2abbaa5ef
