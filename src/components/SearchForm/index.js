@@ -58,7 +58,7 @@ class SearchForm extends Component {
           className={css(styles.SearchForm_input)}
           type="text"
           id="searchInput"
-          placeholder="Search for a user, e.g. simonsmith"
+          placeholder="Search for a user, e.g. nikolai"
           value={this.state.inputValue}
           onChange={this.handleOnChange}
         />
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   SearchForm_btn: {
     padding: '3px 14px',
     position: 'absolute',
-    top: 4,
+    top: 2,
     right: 0,
   },
 });

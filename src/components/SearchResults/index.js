@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
 
     [viewport.SM]: {
       flexBasis: 'calc(100% / 3)',
+      maxWidth:125,
     },
   },
 });

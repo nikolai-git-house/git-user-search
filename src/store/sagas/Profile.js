@@ -7,7 +7,7 @@ import {
 import pick from 'lodash/fp/pick';
 import get from 'lodash/fp/get';
 import flow from 'lodash/fp/flow';
-import api from 'store/api';
+import api from '../../store/api';
 import {getProfileFromCache} from 'store/reducers/Cache';
 
 const pickProfileData = flow(

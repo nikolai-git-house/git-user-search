@@ -4,7 +4,6 @@ import {
   css,
 } from 'aphrodite/no-important';
 import SearchForm from 'components/SearchForm';
-import Logo from 'components/Logo';
 import {viewport} from 'theme';
 import 'suitcss-utils-flex/lib/flex-sm.css';
 
@@ -13,9 +12,6 @@ export default function Header({onSubmit, searchTerm}) {
     <div
       className={`${css(styles.Header)} u-sm-flex u-sm-flexJustifyBetween u-sm-flexAlignItemsCenter`}
     >
-      <div className="u-sm-flexGrow2">
-        <Logo />
-      </div>
       <div className={`${css(styles.Header_form)} u-sm-flexGrow1`}>
         <SearchForm
           onSubmit={onSubmit}

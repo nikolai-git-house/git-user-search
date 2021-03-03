@@ -34,19 +34,11 @@ const renderRoute = curry((Component, matchProps) => {
       <div className="u-flexGrow1">
         <Component {...matchProps} />
       </div>
-      <Container rootStyle={styles.DefaultLayout_footer}>
-        <div className="u-flex u-flexWrap u-flexAlignItemsCenter u-flexJustifyBetween">
-          <p className={css(styles.DefaultLayout_footerText)}>
-            View the <a href="https://github.com/simonsmith/github-user-search">source on GitHub</a>
-          </p>
-          <RateLimitContainer />
-        </div>
-      </Container>
     </div>
   );
 });
 
-class DefaultLayout extends React.Component {
+class MainLayout extends React.Component {
 
   componentDidUpdate() {
     window.scrollTo(0, 0);
@@ -85,4 +77,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default DefaultLayout;
+export default MainLayout;

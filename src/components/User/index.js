@@ -13,7 +13,7 @@ export default function User({login, avatar_url}) {
       to={login}
       className={`${css(styles.User)} u-flex`}
     >
-      <div className={css(styles.User_wrapAvatar)}>
+      <div>
         <Avatar
           url={avatar_url}
           name={login}
@@ -28,13 +28,12 @@ export default function User({login, avatar_url}) {
 const styles = StyleSheet.create({
   User: {
     color: 'inherit',
-  },
-
-  User_wrapAvatar: {
-    marginRight: 15,
+    flexDirection:"column",
+    alignItems:"center",
+    justifyContent:"center"
   },
 
   User_username: {
-    fontSize: 20,
+    fontSize: 16,
   },
 });

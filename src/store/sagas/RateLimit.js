@@ -11,7 +11,7 @@ import get from 'lodash/fp/get';
 import every from 'lodash/fp/every';
 import flow from 'lodash/fp/flow';
 import castArray from 'lodash/fp/castArray';
-import api from 'store/api';
+import api from '../../store/api';
 
 const isCachedAction = flow(
   castArray,

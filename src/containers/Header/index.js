@@ -5,7 +5,7 @@ import {
   StyleSheet,
 } from 'aphrodite/no-important';
 import Header from 'components/Header';
-import Container from 'components/Container';
+import Container from '../../components/Container';
 import connect from './connect';
 
 export class HeaderContainer extends Component {

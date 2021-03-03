@@ -1,10 +1,8 @@
-
-
 import axios from 'axios';
 import assignAll from 'lodash/fp/assignAll';
 import parseLinkHeader from 'parse-link-header';
 
-export const PER_PAGE = 42;
+export const PER_PAGE = 40;
 
 const github = axios.create({
   baseURL: 'https://api.github.com/',

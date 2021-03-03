@@ -4,7 +4,7 @@ import {
   select,
   takeLatest,
 } from 'redux-saga/effects';
-import api from 'store/api';
+import api from '../../store/api';
 import {normalize} from 'normalizr';
 import {
   userSchema,

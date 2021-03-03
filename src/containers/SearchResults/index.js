@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import {
   css,
@@ -10,7 +8,7 @@ import Pagination from 'components/Pagination';
 import ResultsMessage from 'components/ResultsMessage';
 import ErrorBoundary from 'components/ErrorBoundary';
 import Loading from 'components/Loading';
-import Container from 'components/Container';
+import Container from '../../components/Container';
 import connect from './connect';
 
 export function SearchResultsContainer(props) {

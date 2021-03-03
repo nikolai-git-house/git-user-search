@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    app: path.resolve(process.cwd(), './src/client'),
+    app: path.resolve(process.cwd(), './src/index'),
   },
 
   module: {
