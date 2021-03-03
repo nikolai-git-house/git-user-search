@@ -8,3 +8,4 @@
 
 ## Deploy
 - yarn deploy
+- deployed to https://nikolai-git-house.github.io/git-user-search/
